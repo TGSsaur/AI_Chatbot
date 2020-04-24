@@ -1,16 +1,19 @@
-# AI_Chatbot
-Seq2seq model implementation of chatbot based on Artificial Intelligence (Generative Based)
+AI_Chatbot
+Seq2seq model implementation of chatbot based on Artificial Intelligence (Generative rasedt
 Implementation of seq2seq model in Chatbot (AI Chatbot) Here we have used Tensorflow version 1.0.0 Python = 3.5
-
-We can run the command from console or IDE
+We can run the command from console or IDE.
+This Project is under Training so we do not have wait file.
 
 However to train model I will recommend to use Goggle Collaboratory with GPU runtime it will train the model way faster in comparision to CPU . To run on GPU use the following commands:
 
-step 1: from google.colab import drive drive.mount('/content/gdrive')
+step 1: 
+from google.colab import drive drive.mount('/content/gdrive')
 
-step 2: path = "gdrive/My Drive/Project"
+step 2: 
+path = "gdrive/My Drive/Project"
 
-step 3: import os
+step 3: 
+import os
 
 os.chdir(path)
 
